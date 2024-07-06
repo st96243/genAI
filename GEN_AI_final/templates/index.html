@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genetalk</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Genetalk</h1>
+        </div>
+        <div class="chat-container" id="chatContainer">
+             <!-- 對話內容將動態插入到這裡 -->
+             <!-- <div class="questions">
+                <button onclick="askPresetQuestion('癌症與基因突變有關嗎?')">癌症與基因突變有關嗎?</button>
+                <button onclick="askPresetQuestion('為什麼我需要做癌症基因檢測?')">為什麼我需要做癌症基因檢測?</button>
+                <button onclick="askPresetQuestion('我適合哪一種癌症基因檢測?')">我適合哪一種癌症基因檢測?</button>
+                <button onclick="askPresetQuestion('如何選擇一個有品質的檢測服務?')">如何選擇一個有品質的檢測服務?</button>
+            </div> -->
+        </div>
+<!-- 
+        <div class="questions">
+            <button onclick="askPresetQuestion('癌症與基因突變有關嗎?')">癌症與基因突變有關嗎?</button>
+            <button onclick="askPresetQuestion('為什麼我需要做癌症基因檢測?')">為什麼我需要做癌症基因檢測?</button>
+            <button onclick="askPresetQuestion('我適合哪一種癌症基因檢測?')">我適合哪一種癌症基因檢測?</button>
+            <button onclick="askPresetQuestion('如何選擇一個有品質的檢測服務?')">如何選擇一個有品質的檢測服務?</button>
+        </div> -->
+        <div class="input-container">
+            <div class="search-bar">
+                <input type="text" id="userInput" placeholder="請輸入您的問題" style="font-size: 25px;">
+                <button onclick="askQuestion()">
+                    <img src="static/search.jpg">
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>
