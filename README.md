@@ -1,2 +1,2 @@
 # Genetalk
-Copy rights by 羅Lai團隊
+Copy rights by 羅Lai把團隊
